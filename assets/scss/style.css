@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main a {
+  text-decoration: none;
+  color: #0077ff;
+}
+
+main a h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+main p {
+  margin: 0;
+  margin-top: 20px;
+}
+
+main p:first-of-type {
+  margin-top: 30px;
+}
+
+main .Socials_Buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+main .Socials_Buttons a {
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+  -webkit-transition: .2s;
+  transition: .2s;
+  border-radius: 100%;
+}
+
+main .Socials_Buttons a i {
+  font-size: 30px;
+}
+
+main .Socials_Buttons a:hover {
+  background: #0077ff;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
